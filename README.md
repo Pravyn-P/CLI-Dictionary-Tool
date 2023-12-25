@@ -49,7 +49,7 @@ Table of Contents:
 
 - 3.1 Command Line Arguments:
     * To use the command-line dictionary tool, run the script with the following command:   
-            > 'python script_name.py word_to_define'.
+        > 'python script_name.py word_to_define'.
     * Replace script_name.py with the actual name of your Python script, and word_to_define with the word for which you want to fetch the definition.
     
 - 3.2 Example:
