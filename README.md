@@ -1,9 +1,7 @@
 **************************************************************************************                    
 ## Command Line Dictionary Tool
 
-* This project provides a flexible and user-friendly way to interact with the  
-Merriam-Webster Dictionary API from the command line. Users can specify a word
-and, optionally, a part of speech to filter the definitions.
+* This project provides a flexible and user-friendly way to interact with the Merriam-Webster Dictionary API from the command line. Users can specify a wordand, optionally, a part of speech to filter the definitions.
 
 ***************************************************************************************
 
@@ -50,8 +48,8 @@ Table of Contents:
 3. Usage:
 
 - 3.1 Command Line Arguments:
-    * To use the command-line dictionary tool, run the script with the following command:
-            'python script_name.py word_to_define'.
+    * To use the command-line dictionary tool, run the script with the following command:   
+            > 'python script_name.py word_to_define'.
     * Replace script_name.py with the actual name of your Python script, and word_to_define with the word for which you want to fetch the definition.
     
 - 3.2 Example:
@@ -77,15 +75,15 @@ Table of Contents:
 7. Future Enhancements:
 
     * Here are some potential improvements or features that could be added in the future.
-        1. Interactive Mode:
+        * Interactive Mode:
             Implement an interactive mode where the user can enter multiple words without restarting the script for each query.
-        2. Synonyms and Antonyms:
+        * Synonyms and Antonyms:
             Include synonyms and antonyms along with definitions to provide a more comprehensive understanding of the word.
-        3. Custom Output Formats:
+        * Custom Output Formats:
             Allow users to specify different output formats (e.g., JSON, plain text) for the fetched definitions.
-        4. Language Support:
+        * Language Support:
             Extend the script to support multiple languages and dictionaries.
-        5. Enhanced CLI Interface:
+        * Enhanced CLI Interface:
             Use a more sophisticated command-line interface library (e.g., click) to provide a better user experience.
 
 8. Contribution Guidelines:
