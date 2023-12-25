@@ -10,14 +10,14 @@ and, optionally, a part of speech to filter the definitions.
 ***************************************************************************************
 Table of Contents:
 1. Introduction:
-1.1 Purpose
-1.2 Features
+    - 1.1 Purpose
+    - 1.2 Features
 2. Installation:
-    2.1 Prerequisites
-    2.2 Setup
+    - 2.1 Prerequisites
+    - 2.2 Setup
 3. Usage:
-    3.1 Command Line Arguments
-    3.2 Example
+    - 3.1 Command Line Arguments
+    - 3.2 Example
 4. Code Structure
 5. Dependencies
 6. Error Handling
