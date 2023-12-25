@@ -1,5 +1,5 @@
                                  
-                      ### Command Line Dictionary Tool ###
+                       Command Line Dictionary Tool
 
         * This project provides a flexible and user-friendly way to interact with the Merriam-Webster Dictionary API from the command line. Users can specify a word and, optionally, a part of speech to filter the definitions.
 
@@ -28,32 +28,43 @@ Table of Contents:
 
 1. Introduction:
     
-    1.1 Purpose
+    1.1 Purpose:
+        
         * The purpose of this project is to create a command-line dictionary tool that fetches word definitions using the Merriam-Webster Dictionary API.
 
-    1.2 Features
+    1.2 Features:
+        
         * Fetches and displays the definition of a given word.
+        
         * Handles errors gracefully, such as API errors or invalid JSON responses.
+        
         * Provides a user-friendly command-line interface using argparse.
 
 2. Installation:
 
-    2.1 Prerequisites
+    2.1 Prerequisites:
+
         * Ensure the following prerequisites are met before using the script:
-        * Python (version 3.6 or higher): Install the Python and set up the         environment variable. Check python installation status, execute the command ('python --version')
+        
+        * Python (version 3.6 or higher): Install the Python and set up the         environment variable. Check python installation status, execute the command ('python --version').
+        
         * Get the Merriam-Webster API_URL and API_Key from https://dictionaryapi.com/. 
 
-    2.2 Setup
+    2.2 Setup:
+        
         * Ensure that the required dependencies, such as 'requests' and 'argparse' libraries are installed. You can install using 'pip' i.e 'pip install requests' and 'pip install argparse'.
 
 3. Usage:
 
     3.1 Command Line Arguments:
+        
         * To use the command-line dictionary tool, run the script with the following command:
             'python script_name.py word_to_define'.
+        
         * Replace script_name.py with the actual name of your Python script, and word_to_define with the word for which you want to fetch the definition.
     
     3.2 Example:
+        
         * For example if your script_name.py is 'DictionaryTool.py' and the word_to_define is 'Exercise', then use the below command:
             'python DictionaryTool.py Exercise'
 
