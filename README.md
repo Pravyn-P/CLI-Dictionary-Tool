@@ -1,5 +1,9 @@
+<!--
+**************************************************************************************                    
                         ### Command Line Dictionary Tool ###
         * This project provides a flexible and user-friendly way to interact with the Merriam-Webster Dictionary API from the command line. Users can specify a word and, optionally, a part of speech to filter the definitions.
+
+***************************************************************************************
 
 ***************************************************************************************
 Table of Contents:
@@ -25,7 +29,7 @@ Table of Contents:
 
 
 1. Introduction:
-    
+
     1.1 Purpose:
         * The purpose of this project is to create a command-line dictionary tool that fetches word definitions using the Merriam-Webster Dictionary API.
 
