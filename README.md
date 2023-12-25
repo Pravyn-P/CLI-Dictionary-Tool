@@ -1,5 +1,5 @@
 **************************************************************************************                    
-                        ### Command Line Dictionary Tool
+### Command Line Dictionary Tool
 
 * This project provides a flexible and user-friendly way to interact with the  
 Merriam-Webster Dictionary API from the command line. Users can specify a word
