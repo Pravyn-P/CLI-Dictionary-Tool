@@ -29,13 +29,13 @@ Table of Contents:
 
 1. Introduction:
 
-1.1 Purpose:
+- 1.1 Purpose:
 * The purpose of this project is to create a command-line dictionary tool that fetches word definitions using the Merriam-Webster Dictionary API.
 
-    1.2 Features:
-        * Fetches and displays the definition of a given word.
-        * Handles errors gracefully, such as API errors or invalid JSON responses.
-        * Provides a user-friendly command-line interface using argparse.
+- 1.2 Features:
+    * Fetches and displays the definition of a given word.
+    * Handles errors gracefully, such as API errors or invalid JSON responses.
+    * Provides a user-friendly command-line interface using argparse.
 
 2. Installation:
 
