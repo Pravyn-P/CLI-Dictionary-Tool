@@ -1,7 +1,7 @@
 **************************************************************************************                    
 ## Command Line Dictionary Tool
 
-* This project provides a flexible and user-friendly way to interact with the Merriam-Webster Dictionary API from the command line. Users can specify a wordand, optionally, a part of speech to filter the definitions.
+* This project provides a flexible and user-friendly way to interact with the **Merriam-Webster Dictionary API** from the command line. Users can specify a wordand, optionally, a part of speech to filter the definitions.
 
 ***************************************************************************************
 
@@ -39,11 +39,11 @@ Table of Contents:
 
 - 2.1 Prerequisites:
     * Ensure the following prerequisites are met before using the script:
-    * Python (version 3.6 or higher): Install the Python and set up the         environment variable. Check python installation status, execute the command ('`python --version`').
+    * **Python (version 3.6 or higher)**: Install the Python and set up the         environment variable. Check python installation status, execute the command ('`python --version`').
     * Get the Merriam-Webster API_URL and API_Key from https://dictionaryapi.com/. 
 
 - 2.2 Setup:
-    * Ensure that the required dependencies, such as 'requests' and 'argparse' libraries are installed. You can install using 'pip' i.e '`pip install requests`' and '`pip install argparse`'.
+    * Ensure that the required dependencies, such as '**requests**' and '**argparse**' libraries are installed. You can install using 'pip' i.e '`pip install requests`' and '`pip install argparse`'.
 
 3. Usage:
 
@@ -59,14 +59,14 @@ Table of Contents:
 4. Code Structure:
 
     * Key components in the code structure are:
-        * fetch_definition function: Fetches the word definition from the Merriam-Webster API.
-        * main function: Parses command-line arguments and calls fetch_definition.
-        * API key and URL definitions.
+        * **fetch_definition** function: Fetches the word definition from the Merriam-Webster API.
+        * **main** function: Parses command-line arguments and calls fetch_definition.
+        * **API_KEY** and **API_URL** definitions.
 
 5. Dependencies:
 
-    * Here the 'requests' library is the external dependency, required for the script to run. Used for making HTTP requests.
-    * To use the 'Merriam-Webster' dictionay, you need to obtain an API key. Replace the 'API_KEY' variable in the script with your valid key.
+    * Here the '**requests**' library is the external dependency, required for the script to run. Used for making HTTP requests.
+    * To use the 'Merriam-Webster' dictionay, you need to obtain an API key. Replace the '**API_KEY**' variable in the script with your valid key.
 
 6. Error Handling:
 
@@ -101,31 +101,31 @@ Table of Contents:
 ***************************************************************************************
 ### Source Code Explanation
 
-* This Python script is a command-line tool that fetches and displays word definitions using the Merriam-Webster Dictionary API. It has several features, including the ability to filter definitions by part of speech. Below is a breakdown and explanation of the script:
+* This Python script is a command-line tool that fetches and displays word definitions using the **Merriam-Webster Dictionary API**. It has several features, including the ability to filter definitions by part of speech. Below is a breakdown and explanation of the script:
 
 * Explanation:
 
 1. Imports:
-    * 'requests' library is used to make HTTP requests to the Merriam-Webster API.
-    'argparse' library is used to parse command-line arguments.
+    * '**requests**' library is used to make HTTP requests to the **Merriam-Webster API**.
+    '**argparse**' library is used to parse command-line arguments.
 
 2. API Key and URL:
-    * 'API_KEY' and 'API_URL' are constants defining the Merriam-Webster API key and URL.
+    * '**API_KEY**' and '**API_URL**' are constants defining the **Merriam-Webster API** key and URL.
       
-3. 'fetch_definition' Function:
-    * Makes an HTTP request to the Merriam-Webster API with the specified word and API key.
+3. '**fetch_definition**' Function:
+    * Makes an HTTP request to the **Merriam-Webster API** with the specified word and **API_KEY**.
     * Parses the JSON response and extracts the definitions, filtering by part of speech if specified.
     * Handles errors such as bad responses, JSON decoding errors, and cases where the word has no definition.
 
-4. 'main' Function:
-    * Sets up the command line argument parser using 'argparse'.
-    * Defines two command-line arguments: the word to fetch the definition for ('word') and an optional part of speech filter ('--pos').
+4. '**main**' Function:
+    * Sets up the command line argument parser using '**argparse**'.
+    * Defines two command-line arguments: the word to fetch the definition for ('**word**') and an optional part of speech filter ('**--pos**').
     * Parses the command-line arguments.
-    * Calls the 'fetch_definition' function with the specified word and part of speech.
+    * Calls the '**fetch_definition**' function with the specified word and part of speech.
     * Prints the results to the console.
 
 5. Execution:
-    * The 'main' function is called when the script is executed.
-    * If the script is run from the command line ('python script_name.py ...'), it fetches and displays word definitions based on the provided arguments.
+    * The '**main**' function is called when the script is executed.
+    * If the script is run from the command line ('**python script_name.py word_to_define**'), it fetches and displays word definitions based on the provided arguments.
 
 ***************************************************************************************
