@@ -1,4 +1,4 @@
-***************************************************************************************                                      
+                                 
                       ### Command Line Dictionary Tool ###
 
         * This project provides a flexible and user-friendly way to interact with the Merriam-Webster Dictionary API from the command line. Users can specify a word and, optionally, a part of speech to filter the definitions.
@@ -26,7 +26,8 @@ Table of Contents:
 ***************************************************************************************
 
 
-1. Introduction
+1. Introduction:
+    
     1.1 Purpose
         * The purpose of this project is to create a command-line dictionary tool that fetches word definitions using the Merriam-Webster Dictionary API.
 
@@ -35,7 +36,8 @@ Table of Contents:
         * Handles errors gracefully, such as API errors or invalid JSON responses.
         * Provides a user-friendly command-line interface using argparse.
 
-2. Installation
+2. Installation:
+
     2.1 Prerequisites
         * Ensure the following prerequisites are met before using the script:
         * Python (version 3.6 or higher): Install the Python and set up the         environment variable. Check python installation status, execute the command ('python --version')
@@ -44,30 +46,35 @@ Table of Contents:
     2.2 Setup
         * Ensure that the required dependencies, such as 'requests' and 'argparse' libraries are installed. You can install using 'pip' i.e 'pip install requests' and 'pip install argparse'.
 
-3. Usage
-    3.1 Command Line Arguments
+3. Usage:
+
+    3.1 Command Line Arguments:
         * To use the command-line dictionary tool, run the script with the following command:
-            'python script_name.py word_to_define'
+            'python script_name.py word_to_define'.
         * Replace script_name.py with the actual name of your Python script, and word_to_define with the word for which you want to fetch the definition.
     
-    3.2 Example
+    3.2 Example:
         * For example if your script_name.py is 'DictionaryTool.py' and the word_to_define is 'Exercise', then use the below command:
             'python DictionaryTool.py Exercise'
 
-4. Code Structure
+4. Code Structure:
+
     * Key components in the code structure are:
         * fetch_definition function: Fetches the word definition from the Merriam-Webster API.
         * main function: Parses command-line arguments and calls fetch_definition.
         * API key and URL definitions.
 
-5. Dependencies
+5. Dependencies:
+
     * Here the 'requests' library is the external dependency, required for the script to run. Used for making HTTP requests.
     * To use the 'Merriam-Webster' dictionay, you need to obtain an API key. Replace the 'API_KEY' variable in the script with your valid key.
 
-6. Error Handling
+6. Error Handling:
+
     * The script handles various error scenarios gracefully, including HTTP request failures, JSON decoding errors, and cases where the word has no definition.
 
-7. Future Enhancements
+7. Future Enhancements:
+
     * Here are some potential improvements or features that could be added in the future.
         1. Interactive Mode:
             Implement an interactive mode where the user can enter multiple words without restarting the script for each query.
@@ -80,11 +87,13 @@ Table of Contents:
         5. Enhanced CLI Interface:
             Use a more sophisticated command-line interface library (e.g., click) to provide a better user experience.
 
-8. Contribution Guidelines
+8. Contribution Guidelines:
+
     * This is an open source project, you can also provide your contributions, including reporting the issues or submiting the pull requests.
 
 
-9. Contact Information
+9. Contact Information:
+
     * Contact information of the project maintainer or contributor: pravyn.it@gmail.com
 
 ***************************************************************************************
@@ -119,5 +128,5 @@ Table of Contents:
 5. Execution:
     * The 'main' function is called when the script is executed.
     * If the script is run from the command line ('python script_name.py ...'), it fetches and displays word definitions based on the provided arguments.
-    
+
 ***************************************************************************************
